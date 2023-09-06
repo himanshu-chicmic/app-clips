@@ -32,6 +32,7 @@
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
+      appClipInvocationURLString = "https://app-clip-host-demo.web.app"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
@@ -60,6 +61,7 @@
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
+      appClipInvocationURLString = "https://app-clip-host-demo.web.app"
       shouldUseLaunchSchemeArgsEnv = "YES"
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"

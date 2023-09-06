@@ -6,18 +6,19 @@
 //
 
 import Foundation
+import SwiftUI
 
 struct DataModel {
     
     static let shared = DataModel()
     
-    func getImageString() -> String {
+    func getImageString() -> Image {
         #if !APPCLIP
         // Code that your app will use and App Clip don't
-        return "MainApp"
+        return Image("MainApp")
         #else
         // Code your App Clip may access.
-        return "AppClip"
+        return Image("AppClip")
         #endif
     }
 }

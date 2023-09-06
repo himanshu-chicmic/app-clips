@@ -10,10 +10,10 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(DataModel.shared.getImageString())
+            DataModel.shared.getImageString()
                 .resizable()
                 .frame(width: 200, height: 200)
-            Text(DataModel.shared.getImageString())
+            Text("App Clip Preview")
         }
         .padding()
     }
